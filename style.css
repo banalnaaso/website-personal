@@ -1,0 +1,189 @@
+body{
+    text-align: center;
+}
+h3{
+    font-family:alice, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 600px;
+}
+.first-cloud{
+    height: 100px;
+    position: relative;
+    top: 50px;
+    right: 350px;
+}
+.text{
+    margin: 20px 0 0 0;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-family: merriweather, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.name{
+    font-size: 3rem;
+    font-family: alice, Arial, Helvetica, sans-serif;
+}
+
+.second-cloud{
+    height: 100px;
+    position: absolute;
+    right: 300px;
+}
+
+
+/*SECOND RIBBON*/
+.island{
+    height: 200px;
+    position: relative;
+    top: -115px;
+    left: 0px;
+    margin-bottom: 0px;
+}
+.second{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    right: 0;
+    background-color: #AFD3E2;
+    height: 600px;
+}
+.intro-box{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top:-50px;
+}
+.profile-pic{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;  
+}
+.intro-heading{
+    font-family: alice,Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.intro-subtitle{
+    font-family: merriweather, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/*third */
+.third{
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    right: 0;
+    background-color: #19A7CE;
+    height: 600px;
+    
+}
+
+.skills-title{
+    margin-top: 3rem;
+    font-family: alice,arial;
+    font-size: 2rem;
+}
+.skills-bar{
+    display: grid;
+    grid-template-columns: auto 40% auto;
+    gap: 3rem;
+    margin: 5rem;
+}
+.skills-bar img{
+    width: 80px;
+    height: 80px;
+}
+.skills-bar div{
+    padding: 20px;
+    background-color: #AFD3E2;
+    border-radius: 20px;
+}
+
+
+/*fourth*/
+.fourth{
+    position: absolute;
+    top: 1800px;
+    left: 0;
+    right: 0;
+    background-color: #146C94;
+    height: 600px;
+}
+.achievements-title{
+    margin-top: 3rem;
+    font-family: alice,arial;
+    font-size: 2rem;
+    color: #AFD3E2;
+}
+.achievements-card{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem;
+    padding: 0;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    background-color:#19A7CE;
+    width: 500px;
+    border-radius: 20px;
+}
+.fourth img{
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+    float: left;
+}
+.card-description{
+    font-family: merriweather, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+.fifth{
+    position: absolute;
+    top: 2400px;
+    left: 0;
+    right: 0;
+    background-color:#0F5879;
+    height: 200px;
+}
+.dive-logo{
+    position: absolute;
+    height: 300px;
+    top: -150px;
+    right: 20px
+}
+.contact-me{
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family: merriweather, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1.8rem;
+    width: 9rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 100px;
+    background-color:#19A7CE;
+    text-decoration: none;
+}
+.contact-me:hover{
+    width: 9rem;
+    background-color: aliceblue;
+    font-size: 1.7rem;
+    padding: .5rem;
+}
